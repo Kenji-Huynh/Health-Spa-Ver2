@@ -1,0 +1,619 @@
+@media screen and (max-width: 991px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .promo-left,
+  .promo-right {
+    width: 100%;
+  }
+
+  .promo-left {
+    margin-bottom: 30px;
+    padding-right: 0;
+  }
+
+  .promo-card {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  /* About section responsive */
+  .about-text p {
+    max-width: 100%;
+  }
+
+  .about-layout {
+    flex-direction: column;
+  }
+
+  .about-content,
+  .about-images {
+    width: 100%;
+  }
+
+  /* Keep images in a row even in tablet view */
+  .about-images {
+    flex-direction: row;
+  }
+
+  /* Vision Content Responsive */
+  .vision-content-layout {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .vision-column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-title {
+    font-size: 30px;
+  }
+
+  .promo-subtitle {
+    font-size: 24px;
+  }
+
+  .promo-features span {
+    font-size: 14px;
+  }
+
+  /* About section responsive */
+  .about-images {
+    flex-direction: row; /* Keep them in a row for now */
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    height: 250px; /* Make them a bit shorter on smaller screens */
+  }
+
+  .img-right {
+    transform: none;
+  }
+
+  .about-title h2 {
+    font-size: 28px;
+  }
+
+  .flip-card {
+    height: 250px;
+  }
+
+  /* Vision section responsive */
+  .vision-section {
+    height: 250px;
+  }
+
+  .vision-title {
+    font-size: 36px;
+  }
+
+  .vision-subtitle {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* Now stack images on very small screens */
+  .about-images {
+    flex-direction: column;
+  }
+
+  .image-container {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .promo-header {
+    padding: 15px;
+  }
+
+  .promo-title {
+    font-size: 24px;
+  }
+
+  .promo-subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .card-date {
+    font-size: 14px;
+  }
+
+  .register-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* About section responsive */
+  .about-section {
+    padding: 50px 0;
+  }
+
+  .about-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .icon-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .about-title h2 {
+    font-size: 24px;
+  }
+
+  .flip-card {
+    height: 250px;
+  }
+
+  /* Vision section responsive */
+  .vision-section {
+    height: 200px;
+  }
+
+  .vision-title {
+    font-size: 28px;
+  }
+
+  .vision-content-section {
+    padding: 40px 0;
+  }
+
+  .vision-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .vision-icon-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .vision-subtitle {
+    font-size: 20px;
+  }
+
+  .mission-list li {
+    padding-left: 15px;
+  }
+}
+
+/* Service Showcase Responsive - Modified for single row */
+@media screen and (max-width: 1200px) {
+  .service-circle {
+    width: 110px;
+    height: 110px;
+  }
+
+  .service-name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .showcase-layout {
+    flex-direction: column;
+  }
+
+  .showcase-vision,
+  .service-circles {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .showcase-vision {
+    margin-bottom: 40px;
+  }
+
+  /* Keep circles in a single row on medium screens */
+  .service-circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* On smaller screens, allow wrapping to 2x2 for better readability */
+  .service-circles {
+    flex-wrap: wrap;
+  }
+
+  .service-item {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
+
+  .service-circle {
+    width: 130px;
+    height: 130px;
+  }
+
+  .service-name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .service-circles {
+    gap: 20px;
+  }
+
+  .service-circle {
+    width: 110px;
+    height: 110px;
+  }
+
+  .showcase-heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-item {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+
+  .service-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .service-name {
+    font-size: 14px;
+  }
+}
+
+/* Spa Environment Responsive */
+@media screen and (max-width: 992px) {
+  .environment-gallery {
+    gap: 20px;
+  }
+
+  .gallery-img-container {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .spa-environment {
+    padding: 60px 0;
+  }
+
+  .environment-title {
+    font-size: 28px;
+  }
+
+  .environment-description {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .spa-environment {
+    padding: 40px 0;
+  }
+
+  .environment-title {
+    font-size: 24px;
+  }
+
+  .gallery-img-container {
+    height: 200px;
+  }
+}
+
+/* Thêm vào responsive.css - điều chỉnh cụ thể cho màn hình lớn */
+@media screen and (min-width: 1200px) {
+  .showcase-layout {
+    align-items: stretch; /* Đảm bảo các phần tử kéo dài theo chiều cao */
+  }
+
+  .showcase-vision {
+    flex: 0 0 35%; /* Điều chỉnh lại tỷ lệ khi màn hình lớn */
+  }
+
+  .service-circles {
+    flex: 0 0 60%; /* Điều chỉnh lại tỷ lệ khi màn hình lớn */
+    gap: 15px; /* Tăng khoảng cách giữa các item khi màn hình lớn */
+  }
+
+  .service-circle {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .service-circles {
+    gap: 10px;
+  }
+
+  .service-circle {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .service-circles {
+    justify-content: space-around; /* Điều chỉnh cách sắp xếp khi màn hình vừa */
+    flex-wrap: wrap; /* Cho phép wrap khi cần */
+  }
+
+  .service-item {
+    flex: 0 0 auto;
+    margin: 0 5px 15px; /* Thêm margin ngang */
+    width: calc(25% - 10px); /* Đảm bảo 4 item trên một hàng */
+  }
+
+  .service-circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service-circles {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .service-item {
+    flex: 0 0 auto;
+    width: calc(50% - 15px);
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+  .service-card {
+    flex: 0 1 calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .service-card {
+    flex: 0 1 100%;
+  }
+
+  .service-img-container {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gallery-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .environment-header {
+    flex-direction: column;
+  }
+
+  .env-icon-wrapper {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Counter Stats Responsive */
+@media screen and (max-width: 992px) {
+  .stats-container {
+    gap: 40px;
+  }
+
+  .stat-item {
+    width: 180px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .counter-stats {
+    padding: 60px 0;
+  }
+
+  .stats-container {
+    gap: 30px;
+  }
+
+  .stat-item {
+    width: 160px;
+  }
+
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stat-number {
+    font-size: 32px;
+  }
+
+  .stat-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-item {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .stat-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Customer Reviews Responsive */
+@media screen and (max-width: 992px) {
+  .reviews-container {
+    gap: 30px;
+  }
+
+  .review-item {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .customer-reviews {
+    padding: 60px 0;
+  }
+
+  .reviews-title {
+    font-size: 28px;
+  }
+
+  .review-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .reviews-header {
+    margin-bottom: 40px;
+  }
+
+  .customer-info {
+    padding-left: 0; /* Remove padding on smaller screens */
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .review-layout {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .customer-photo-wrapper {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .review-content {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .customer-reviews {
+    padding: 40px 0;
+  }
+
+  .reviews-title {
+    font-size: 24px;
+  }
+
+  .reviews-header {
+    flex-direction: column;
+  }
+
+  .reviews-icon-wrapper {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .customer-photo-wrapper {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Footer Responsive */
+@media screen and (max-width: 992px) {
+  .footer-info {
+    max-width: 100%;
+  }
+
+  .footer-logo img {
+    max-width: 140px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-footer {
+    padding: 30px 0 15px;
+  }
+
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .footer-contact,
+  .footer-connect {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-desc p {
+    font-size: 13px;
+  }
+
+  .contact-item {
+    margin-bottom: 10px;
+  }
+
+  .contact-text {
+    font-size: 13px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .service-card {
+    width: calc(33.33% - 26.67px);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .service-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-card {
+    width: calc(100% - 0px);
+  }
+}
